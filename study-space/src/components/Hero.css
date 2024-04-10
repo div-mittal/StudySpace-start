@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* overflow: hidden; */
+}
+.main{
+    padding: 1% 2%;
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 2% 1%;
+    display: flex;
+}
+.left{
+    padding: 1% 5%;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* text-align: justify; */
+
+}
+.left h2{
+    font-size: 2.5rem;
+    /* justify-content: space-between; */
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.left p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.right{
+    width: 50%;
+    padding: 1% 5%;
+    justify-content: center;
+    align-items: center;
+}
+.right img{
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.signup{
+    display: flex;
+    gap: 0.5%;
+    padding: 2% 6%;
+    
+}
+.signup input{
+    padding: 1.2%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    width: 30%;
+    font-size: 1rem;
+}
+.signup a{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    padding: 1.2%;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+    width: 25%;
+    background-color: #60BC4F;
+    color: white;
+    font-weight: 480;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+.signup a:hover{
+    background-color: #4A9D3B;
+}

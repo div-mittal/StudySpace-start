@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* body{
+    padding: 1% 2%;
+    font-size: 1.1rem;
+} */
+.navbar{
+    padding: 1% 2%;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.studySpace{
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.rightNav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.login{
+    all: unset;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.signUp{
+    all: unset;
+    background-color: #ffffff;
+    color: #0E76C0;
+    font-weight: 600;
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.signUp:hover{
+    background-color: #0E76C0;
+    color: #ffffff;
+}
+.login:hover{
+    text-decoration: underline;
+}
